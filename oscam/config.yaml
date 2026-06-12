@@ -18,9 +18,9 @@ ports:
   6330/tcp: 6330
 ports_description:
   8888/tcp: Web Interface
-  9999/tcp: OSCAM Server
-  12000/tcp: cccan
-  96330/tcp: dvbapi
+  9999/tcp: cs378x
+  12000/tcp: cccam
+  6330/tcp: dvbapi
 map:
   - 'config:rw'
 hassio_role: default
