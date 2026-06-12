@@ -15,12 +15,12 @@ ports:
   8888/tcp: 8888
   9999/tcp: 9999
   12000/tcp: 12000
-  9000/tcp: 9000
+  6330/tcp: 6330
 ports_description:
   8888/tcp: Web Interface
   9999/tcp: OSCAM Server
   12000/tcp: cccan
-  9000/tcp: dvbapi
+  96330/tcp: dvbapi
 map:
   - 'config:rw'
 hassio_role: default
