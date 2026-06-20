@@ -11,7 +11,7 @@ program
     .name('vavoo-iptv-stream-proxy')
     .description('Local proxy for Vavoo IPTV streams')
     .option('--http-host <host>', 'Local HTTP host for displayed URLs', '127.0.0.1')
-    .option('--http-port <port>', 'Local HTTP port', '8888')
+    .option('--http-port <port>', 'Local HTTP port', '8088')
     .option('--vavoo-language <language>', 'Language sent to Vavoo APIs, e.g. de or optional en', 'de')
     .option('--vavoo-region <region>', 'Region sent to Vavoo APIs, default US for a broad catalog, optional DE which tends to prefilter strongly toward Germany', 'US')
     .option('--vavoo-url-list <selection>', 'URL list to use: primary, fallback, both', 'both')
