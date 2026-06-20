@@ -1,1 +1,17 @@
+name: Vavoo IPTV Proxy
+slug: vavoo_proxy
+version: "1.0.0"
+description: Vavoo IPTV Proxy for TVHeadend
+startup: services
+boot: auto
+host_network: true
 
+options:
+  http_port: 8888
+  language: de
+  region: US
+
+schema:
+  http_port: int
+  language: str
+  region: str
